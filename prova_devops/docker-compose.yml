@@ -1,0 +1,34 @@
+version: '3'
+services:
+  react-app:
+    build:
+      context: ./devops-web
+    ports:
+      - "3000:3000"
+    depends_on:
+      - webapp
+  webapp:
+    build:
+      context: ./devops-api/devops-api
+      dockerfile: Dockerfile
+    expose:
+      - 80
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+    networks:
+      - mynetwork
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-CU14-ubuntu-20.04
+    container_name: db
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "devops-azevedo#2023"
+    ports:
+      - "1433:1433"
+    networks:
+      - mynetwork
+networks:
+  mynetwork:
+    driver: bridge
