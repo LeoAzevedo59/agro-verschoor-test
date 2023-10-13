@@ -21,7 +21,7 @@ builder.Services.AddCors(options =>
       });
 });
 
-var connection = "Server=db;DataBase=master;Uid=sa;Pwd=devops-azevedo#2023;";
+var connection = "Server=devops-db-sql-server;DataBase=master;Uid=sa;Pwd=devops-azevedo#2023;";
 builder.Services.AddScoped<DbConnection>(e => new SqlConnection(connection));
 
 //docker run --name container_devops -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=devops-azevedo#2023" -p 1433:1433 -d mcr.microsoft.com/mssql/server:2019-CU14-ubuntu-20.04
