@@ -1,4 +1,5 @@
 import React from 'react';
+import { MdDelete } from 'react-icons/md';
 
 interface TodoItem {
     id: string;
@@ -16,7 +17,7 @@ export const TodoItem: React.FC<Props> = ({ todo, handleChecked, handleRemove })
     let style = '';
 
     if (todo.isChecked)
-        style = `line-through p-2 break-words text-slate-300`
+        style = `line-through p-2 break-words text-slate-600 bg-slate-900`
     else
         style = `p-2 break-words text-slate-300`
 
@@ -29,7 +30,9 @@ export const TodoItem: React.FC<Props> = ({ todo, handleChecked, handleRemove })
             <div onClick={onUpdate} className='cursor-pointer bg-slate-800 h-auto max-w-lg w-10/12'>
                 <p className={style}>{todo.description}</p>
             </div>
-            <button onClick={() => handleRemove(todo.id)} className='bg-red-500 w-6 h-6 ml-2'></button>
+            <button onClick={() => handleRemove(todo.id)} className='w-6 h-6 ml-2 flex justify-center items-center'>
+                <MdDelete style={{ color: '#DE6252', fontSize: 18 }} />
+            </button>
         </div>
     )
 }
