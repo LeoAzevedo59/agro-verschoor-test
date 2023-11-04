@@ -1,10 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7Vml4RZwRC+1HK5uBBQYJsNuneWyGrvH8+JSDINKlXoRR6b/4XgzlMshhUgFAUR+Fud/K/WcLpOHNkkPSYqpXQ==",
+  "dgSpecHash": "nHHrgZrMrbkFtyy0UO9qRRXumPc1i9fVzahT9QJZz7OlVXX60BJMwcHEd+vAJxnI2Eur4GRvDWWDkkpHZm0Tkg==",
   "success": true,
   "projectFilePath": "C:\\dev\\devops-web\\devops-api\\devops-api\\devops-api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leofr\\.nuget\\packages\\dapper\\2.1.4\\dapper.2.1.4.nupkg.sha512",
+    "C:\\Users\\leofr\\.nuget\\packages\\elastic.clients.elasticsearch\\8.10.0\\elastic.clients.elasticsearch.8.10.0.nupkg.sha512",
+    "C:\\Users\\leofr\\.nuget\\packages\\elastic.transport\\0.4.16\\elastic.transport.0.4.16.nupkg.sha512",
     "C:\\Users\\leofr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\leofr\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\leofr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
