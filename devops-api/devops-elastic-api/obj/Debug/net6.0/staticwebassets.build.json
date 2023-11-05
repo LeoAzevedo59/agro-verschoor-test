@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QzwZxiyO3d3UCTWvcefIFXwEH/duMqCZGHOR2EIifyk=",
+  "Source": "devops-elastic-api",
+  "BasePath": "_content/devops-elastic-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

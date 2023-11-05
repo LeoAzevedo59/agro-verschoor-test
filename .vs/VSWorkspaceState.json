@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\devops-api"
   ],
-  "SelectedNode": "\\docker-compose.yml",
+  "SelectedNode": "\\devops-api\\devops-api.sln",
   "PreviewInSolutionExplorer": false
 }
