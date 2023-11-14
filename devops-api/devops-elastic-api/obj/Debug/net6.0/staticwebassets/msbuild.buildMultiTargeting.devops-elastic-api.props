@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\devops-elastic-api.props" />
+</Project>
